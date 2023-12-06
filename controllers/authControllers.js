@@ -39,9 +39,6 @@ exports.login = function (req, res, next) {
     res.status(400).json("email or password incorrect!");
   }
 
-  //2) check if user exists && password is correct
-
-  //3) if everything is okay  send token to client
   const token = "";
   res.status(200).json({
     status: "success",
